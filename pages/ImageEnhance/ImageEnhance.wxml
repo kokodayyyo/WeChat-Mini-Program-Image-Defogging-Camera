@@ -1,0 +1,35 @@
+<image src="/static/Firstimage/touch.jpg" class="Fimagelist"bindtap="chooseImg"></image>
+<text style="display: flex;justify-content: center;">点击选择或拍摄单张图片上传至服务器👆</text>
+<text style="display: flex;justify-content: center;margin-top: 25rpx;">选择预览👇</text>
+<view class="DehazePreview">
+  <block wx:for="{{pictures}}" wx:for-item='SingleDehaze' wx:for-index='idx' wx:key="itm">
+  <image class="previewimg" mode="aspectFit"src="{{SingleDehaze}}"bindtap="previewImage"></image>
+  </block>
+</view>
+<text style="display: flex;justify-content: center;margin-top: 25rpx;">结果预览👇（点击可保存）</text>
+<view class="GetImage">
+<image style="width: 100%;border-radius: 30rpx;" src="data:image/png;base64,{{IMG}}" mode="widthFix"bindtap="SaveBase64"/>
+</view>
+<view style="margin-top: 25rpx;">
+  <view class="Choices">
+    <button class="weui-btn weui-btn_default"style="margin-top: 20rpx;border-radius: 30rpx;"bindtap="DealImg5">图像增强1</button>
+    <button class="weui-btn weui-btn_default"style="margin-top: 20rpx;border-radius: 30rpx;"bindtap="DealImg6">图像增强2</button>
+  </view>
+  <button class="DealButton"bindtap="getCode">返回结果</button>
+  <!-- 暂存功能区 -->
+  <view class="Storage"style="display:flex">
+    <button class="hide{{showView?'show':''}} DealButton"bindtap="getNumber">创建空间并获取密码</button>
+    <button class="DealButton"bindtap="New">显示密码</button>
+  </view>
+  <!-- 点击显示密码再出现暂存 -->
+  <view wx:if="{{SW}}">
+  <view class="inputname">
+    <text class="textnormal">{{completed}}</text>
+    <input class="textnormal" bindinput="Open" value="{{name_value}}" placeholder="请输入密码"></input>
+    <!-- <button>确定</button> -->
+  </view>
+    <button class="weui-btn weui-btn_default"style="margin-top: 20rpx;border-radius: 30rpx;" bindtap="putStorage">暂存</button>
+  </view>
+  <!-- 底部透明按钮防止遮盖 -->
+  <button style="background-color:transparent;height:150rpx;">-------------------</button>  
+</view>

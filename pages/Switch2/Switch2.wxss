@@ -1,0 +1,47 @@
+/* pages/Switch2/Switch2.wxss */
+
+.B1{
+  height: 150rpx;
+  margin-top: 300rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #6effe0 0%, #88fa79  51%, #6effe0  100%);
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(0, 0, 0);            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+
+}
+.B1:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.B2{
+  height: 150rpx;
+  margin-top: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #fff897 0%, #eaa3ff 51%, #fff897  100%);
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(0, 0, 0);            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+.B2:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}

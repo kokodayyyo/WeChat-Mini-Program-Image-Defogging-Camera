@@ -1,0 +1,30 @@
+<page-meta root-font-size="system"/>
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+	<view class="weui-form">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">主要功能简介</h2>
+		</view>
+		<view class="weui-form__control-area">
+			<view class="weui-cells__group weui-cells__group_form">
+				<view class="weui-cells">
+					<navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" url="/pages/Introduction/Detail/DE/DE">
+						<view class="weui-cell__bd"><view>图像去雾功能区</view></view>
+						<view class="weui-cell__ft"></view>
+					</navigator>
+					<navigator class="weui-cell weui-cell_access" url="/pages/Introduction/Detail/PreChoose/PreChoose" hover-class="weui-cell_active">
+						<view class="weui-cell__bd"><view>tabbar预选功能区</view></view>
+						<view class="weui-cell__ft"></view>
+					</navigator>
+          <navigator class="weui-cell weui-cell_access" url="/pages/Introduction/Detail/Filter/Filter" hover-class="weui-cell_active">
+						<view class="weui-cell__bd"><view>滤镜设置功能区</view></view>
+						<view class="weui-cell__ft"></view>
+					</navigator>
+          <navigator class="weui-cell weui-cell_access" url="/pages/Introduction/Detail/Set/Set" hover-class="weui-cell_active">
+						<view class="weui-cell__bd"><view>自定义设置功能区</view></view>
+						<view class="weui-cell__ft"></view>
+					</navigator>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

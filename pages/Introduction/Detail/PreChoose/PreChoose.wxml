@@ -1,0 +1,24 @@
+<view class="weui-article__section">
+                  <view class="weui-article__h5">前端预选功能区</view>
+                  <view class="weui-article__ol">
+                    <view class="weui-article__li">模块划分
+                      <view class="weui-article__ul">
+                        <view class="weui-article__li">点击预选并预存</view>
+                        <view class="weui-article__li">点击预览</view>
+                      </view>
+                    </view>
+                    <view class="weui-article__li">
+                      点击预选并预存模块简介
+                      <view class="weui-article__ul">
+                        <view class="weui-article__li">提供基于微信官方接口的选择图片页面，通过数组列举并展示在本页面并预存到存储空间。</view>
+                        <view class="weui-article__li">所选图片组一次性上传后无法单个更改，只能重新选择所有图片。</view>
+                        <view class="weui-article__li">所选图片组在所有前端处理页面都可以通过按钮调用。</view>
+                      </view>
+                    </view>
+                    <view class="weui-article__li">点击预览模块简介
+                      <view class="weui-article__ul">
+                        <view class="weui-article__li">通过官方接口提供了点击预览所选图片功能。</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>

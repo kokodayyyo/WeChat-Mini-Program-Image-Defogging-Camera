@@ -1,0 +1,40 @@
+/* pages/ImageEnhance/ImageEnhance.wxss */
+.Fimagelist{
+  margin-top: 40rpx;
+  border-radius: 30rpx;
+  height: 170rpx;
+  width: 720rpx;
+  display: flex;
+  margin-left: 18rpx;
+}
+.DehazePreview{
+  display: flex;
+  justify-content: center;
+  border-radius: 30rpx;
+  margin-top: 25rpx;
+  border: 6rpx solid rgb(63, 90, 71);
+}
+.GetImage{
+  display: flex;
+  justify-content: center;
+  border-radius: 30rpx;
+  margin-top: 25rpx;
+  border: 6rpx solid rgb(63, 90, 71);
+  flex-direction: column;/* 主轴方向为竖直*/
+}
+.DealButton{
+  margin-top: 20rpx;
+  border-radius: 30rpx;
+  background: linear-gradient(to right, #e8bbf1, #97fff6); 
+  width: 350rpx;
+}
+.hide{
+  display: none;
+ }
+ .show{ 
+  display: block;
+ }
+.Choices{
+  display: flex;
+  flex-direction: row;
+}

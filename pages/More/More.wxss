@@ -1,0 +1,34 @@
+
+.auction{
+  display:flex;
+  flex-direction: row;/* 主轴为水平方向*/
+  margin-top: 30rpx;
+}
+.chooseImage{
+  display: flex;
+  justify-content: center;
+  border: 6rpx solid rgb(63, 90, 71);
+}
+.foot{
+  border-radius: 20rpx;
+  background: linear-gradient(to right, #ead6ee, #a0f1ea);
+}
+.swiper-wrap{
+  overflow: hidden;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  width: 100%;
+  height: 330rpx;
+  transform: translateY(0); 
+  line-height: 1rpx; 
+  text-align:center;
+}
+.showimage{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  text-align:center;
+}
+.Show{
+  border-radius: 10rpx;
+  height: 100%;
+}

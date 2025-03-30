@@ -1,0 +1,58 @@
+<view class="GetImage">
+<image style="width: 100%;border-radius: 30rpx;" src="data:image/png;base64,{{IMG1}}" mode="widthFix"bindtap="SaveBase64"/>
+</view>
+<view style="display: flex;flex-direction: row;">
+  <view class="inputname">
+    <text class="textnormal">{{completed}}</text>
+    <input class="textnormal" bindinput="Open" value="{{name_value}}" placeholder="请输入密码"></input>
+  </view>
+  <button class="DealButton" bindtap="putStorage1">确定</button>
+  <view wx:if="{{SW1}}">
+  <button class="DealButton"bindtap="getCode1">返回暂存1</button>
+  </view>
+</view>
+
+<view class="GetImage">
+<image style="width: 100%;border-radius: 30rpx;" src="data:image/png;base64,{{IMG2}}" mode="widthFix"bindtap="SaveBase64"/>
+</view>
+<view style="display: flex;flex-direction: row;">
+  <view class="inputname">
+    <text class="textnormal">{{completed}}</text>
+    <input class="textnormal" bindinput="Open" value="{{name_value}}" placeholder="请输入密码"></input>
+  </view>
+  <button class="DealButton" bindtap="putStorage2">确定</button>
+  <view wx:if="{{SW2}}">
+  <button class="DealButton"bindtap="getCode2">返回暂存2</button>
+  </view>
+</view>
+
+<view class="GetImage">
+<image style="width: 100%;border-radius: 30rpx;" src="data:image/png;base64,{{IMG3}}" mode="widthFix"bindtap="SaveBase64"/>
+</view>
+<view style="display: flex;flex-direction: row;">
+  <view class="inputname">
+    <text class="textnormal">{{completed}}</text>
+    <input class="textnormal" bindinput="Open" value="{{name_value}}" placeholder="请输入密码"></input>
+  </view>
+  
+  <button class="DealButton" bindtap="putStorage3">确定</button>
+  <view wx:if="{{SW3}}">
+  <button class="DealButton"bindtap="getCode3">返回暂存3</button>
+  </view>
+</view>
+
+<view class="GetImage">
+<image style="width: 100%;border-radius: 30rpx;" src="data:image/png;base64,{{IMG4}}" mode="widthFix"bindtap="SaveBase64"/>
+</view>
+<view style="display: flex;flex-direction: row;">
+  <view class="inputname">
+    <text class="textnormal">{{completed}}</text>
+    <input class="textnormal" bindinput="Open" value="{{name_value}}" placeholder="请输入密码"></input>
+  </view>
+  <button class="DealButton" bindtap="putStorage4">确定</button>
+  <view wx:if="{{SW4}}">
+  <button class="DealButton"bindtap="getCode4">返回暂存4</button>
+  </view>
+</view>
+
+<button style="background-color:transparent;height:150rpx;">-------------------</button> 

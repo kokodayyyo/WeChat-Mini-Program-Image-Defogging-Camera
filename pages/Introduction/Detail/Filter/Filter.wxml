@@ -1,0 +1,20 @@
+<view class="weui-article__section">
+                  <view class="weui-article__h5">前端页面滤镜功能</view>
+                  <view class="weui-article__ol">
+                    <view class="weui-article__li">模块划分
+                      <view class="weui-article__ul">
+                        <view class="weui-article__li">水平图片设定--16:9/4:3</view>
+                        <view class="weui-article__li">竖直图片设定--16:9/4:3</view>
+                      </view>
+                    </view>
+                    <view class="weui-article__li">
+                      滤镜功能介绍
+                      <view class="weui-article__ul">
+                        <view class="weui-article__li">滤镜模块通过前端页面canvas画布实现，有尺寸和比例的限制，本项目提供了常见的16：9和4：3规格，请预先裁剪。</view>
+                        <view class="weui-article__li">受限于微信小程序前端canvas画布性能，部分像素可能有坏点，输出图片尺寸也受限于微信小程序前端页面，并非原图尺寸。</view>
+                        <view class="weui-article__li">图像框下方提供了直接的16:9/4:3的切换按钮。</view>
+                        <view class="weui-article__li">为了提供便利的使用体验，可在预选页面提前批量选择需要处理的图片，并在所有前端页面通过提供的按钮调用处理。（前端页面也包含拍摄和相册选择功能，拍摄功能微信小程序没有提供预选的拍摄比例，请谨慎使用）</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>

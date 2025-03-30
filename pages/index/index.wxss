@@ -1,0 +1,76 @@
+.top1{
+  font-size: 70rpx;
+  margin-left:30rpx;
+}
+.title{
+  font-size: 45rpx;
+  margin-left:30rpx;
+}
+.titleimage{
+  margin-left: 320rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+/* 轮播图 */
+.showimage{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;/* 主轴为水平方向*/
+}
+.top2{
+  width: 350rpx;
+  height: 80rpx;
+  margin-top:20rpx;
+  margin-left: 60rpx;
+}
+.swiper-wrap{
+  margin-left: 18rpx;
+  overflow: hidden;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  width: 480rpx;
+  height: 330rpx;
+  transform: translateY(0); 
+  line-height: 1rpx; 
+}
+.swiper-wrap2{
+  margin-left: 30rpx;
+  overflow: hidden;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  width: 210rpx;
+  height: 330rpx;
+  transform: translateY(0); 
+  line-height: 1rpx; 
+}
+.swiper-wrap2 image{
+  width: 100%;
+}
+/* 绿色隔断 */
+.partstyle{ 
+  margin-left: 18rpx;
+  margin-top: 20rpx;
+  border-radius: 30rpx;
+  width: 720rpx;
+  height: 15rpx;
+}
+.partstyle2{ 
+  margin-left: 18rpx;
+  margin-top: 33rpx;
+  border-radius: 30rpx;
+  width: 720rpx;
+  height: 40rpx;
+}
+/* 功能按键区 */
+.FunctionsList{
+  margin-top: 2rpx;
+  margin-left: 18rpx;
+  display: flex;
+  flex-direction: column;
+}
+.Fimagelist{
+  margin-top: 26rpx;
+  border-radius: 30rpx;
+  height: 170rpx;
+  width: 720rpx;
+}

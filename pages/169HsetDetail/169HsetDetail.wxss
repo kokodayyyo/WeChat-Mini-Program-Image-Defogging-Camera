@@ -1,0 +1,82 @@
+/* pages/169HsetDetail/169HsetDetail.wxss */
+/* pages/setDetail/setDetail.wxss */
+.wrap {
+  height: 300rpx;
+}
+.textset{
+  font-size: 45rpx;
+  background: -webkit-linear-gradient(left,pink,lightblue,skyblue);
+  border-radius: 20rpx;
+  display:flex;
+  text-align:center;
+  justify-content:center;/* 文字居中 */
+}
+.picker-wrap {
+  width: 750rpx;
+  height: 88rpx;
+}
+.scroll_box{
+  margin-top: 20rpx;
+}
+.picker-wrap picker {
+  width: 100%;
+  height: 88rpx;
+  border-bottom: 2rpx solid #ddd;
+  display: flex;
+  align-items: center;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+  background: #eee;
+}
+
+.picker {
+  width: 750rpx;
+  text-align: center;
+}
+
+.time {
+  width: 750rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+.canvasHigh {
+  width: 2250rpx;
+  height: 270rpx;
+  transform: translateX(-200%);
+}
+.save {
+  margin-top: 30rpx;
+  width: 200rpx;
+  border-radius: 100rpx;
+  background: -webkit-linear-gradient(left,pink,lightblue,skyblue);
+  color: rgb(92, 91, 89);
+}
+.Button{
+  display: flex;
+  flex-direction: row;/* 主轴为水平方向*/
+}
+.set{
+  display: flex;
+  flex-direction: row;/* 主轴为水平方向*/
+}
+.HUE{
+  display: flex;
+  flex-direction: column;
+  
+}
+.little1{
+  margin-top: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-left: 5%;
+  margin-bottom: 20rpx;
+}
+.little2{
+  margin-top: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-right: 5%;
+  margin-bottom: 20rpx;
+}

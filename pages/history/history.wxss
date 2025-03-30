@@ -1,0 +1,32 @@
+.textset{
+  font-size: 45rpx;
+  background: -webkit-linear-gradient(left,pink,lightblue,skyblue);
+  border-radius: 20rpx;
+  display:flex;
+  text-align:center;
+  justify-content:center;/* 文字居中 */
+}
+.container {
+  box-sizing:border-box;
+  padding:20px;
+} 
+
+.imgeset{ /* 选择按钮设置 */
+  width:400rpx;
+  height:100rpx;
+  display:flex;
+  justify-content: center;
+  border-radius: 30rpx;
+}
+
+.previewimg{/* 预览图格式设置 */
+  width: 46%;
+  height: 200px;
+  margin: 2%;
+  border-radius: 40rpx;
+}
+.previewimg image{
+  width:100%;
+  height:100%;
+}
+

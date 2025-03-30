@@ -1,0 +1,8 @@
+<!--pages/camera/camera.wxml-->
+<text class="text1" >开始拍照！</text>
+<!-- <camera device-position="front" flash="on" style="width: 100%; height: 450px;"></camera> -->
+<camera device-position="back" flash="on" style="width: 100%; height: 450px;"></camera>
+<button class="Button" type="primary" bindtap="takePhoto">拍照</button>
+<button class="Button"  type="primary" bindtap='saveToPhone'> 保存图片到本地</button>
+<button class="Button"  type="primary" > 图像去雾处理</button>
+<image mode="widthFix" src="{{src}}"></image>

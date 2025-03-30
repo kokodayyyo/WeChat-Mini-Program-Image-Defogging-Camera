@@ -1,0 +1,5 @@
+<!--自定义切换页面-->
+
+<button class="B1"style="width:600rpx"bindtap="jump1">处理水平图像</button>
+<button class="B2"style="width:600rpx"bindtap="jump2">处理竖直图像</button>
+

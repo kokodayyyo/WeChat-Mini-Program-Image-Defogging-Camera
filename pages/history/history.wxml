@@ -1,0 +1,9 @@
+<text class="textset">预选想要处理的图片</text>
+<view style="margin-top: 2%;display:flex;justify-content: center;">
+  <image src="/static/preChoose/chooseimg.jpg"class="imgeset" mode="widthFix"bindtap="chooseImg"/>
+</view>
+<view>
+  <block wx:for="{{pictures}}" wx:for-item='images' wx:for-index='idx' wx:key="itm">
+    <image class="previewimg" mode="widthFix"src="{{images}}" data-src="{{images}}" data-index="{{idx}}" bindtap="previewImage"></image>
+  </block>
+</view>

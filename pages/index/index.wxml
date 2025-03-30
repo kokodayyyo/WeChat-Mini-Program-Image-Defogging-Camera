@@ -1,0 +1,53 @@
+<!-- 首页顶部 -->
+<view>
+<text class="top1">Welcome</text>
+<image src="/static/Firstimage/001.png" class="top2"bindtap="jump0"></image>
+</view>
+<!-- ====================绿色隔断===================== -->
+<view>
+  <image src="/static/Firstimage/part.png" class="partstyle"></image>
+</view>
+<!-- 轮播图 -->
+<view class="showimage">
+  <swiper class="swiper-wrap" autoplay="{{true}}" circular="{{true}}"indicator-dots="{{true}}"interval="5000">
+	<swiper-item>
+		<image mode="widthFix" src="https://img-blog.csdnimg.cn/50ffe63b412c4cf7bac868564e529ad1.jpeg" />
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="https://img-blog.csdnimg.cn/721dbfc97a3f423cb2dac51d758e47d7.jpeg" />
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="https://img-blog.csdnimg.cn/e4883a3754b541918d6c77a8f7a9bdbb.jpeg" />
+	</swiper-item>
+  <swiper-item>
+		<image mode="widthFix" src="https://img-blog.csdnimg.cn/8b7e793f705e4ce495f24a93cdc6ce5a.jpeg" />
+	</swiper-item>
+</swiper>
+<!-- ==================================== -->
+<swiper class="swiper-wrap2" autoplay="{{true}}" circular="{{true}}"indicator-dots="{{false}}"interval="7000">
+	<swiper-item>
+		<image mode="widthFix" src="https://img-blog.csdnimg.cn/6c7138f8647540ba96dbb73025b3daba.jpeg" />
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="https://img-blog.csdnimg.cn/6b374ac431d24fb7ae1decde6d18efb8.jpeg" />
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="https://img-blog.csdnimg.cn/22a66c6e4b7e4704a8f2f1c5abd154e2.jpeg" />
+	</swiper-item>
+</swiper>
+</view>
+<!-- ========================分割=========================-->
+<view>
+  <image src="/static/Firstimage/part.png" class="partstyle2"></image>
+</view>
+<view class="title2">
+  <text class="title">图像去雾功能区</text>
+  <image src="/static/Firstimage/enhance.png" class="titleimage"></image>
+</view>
+<!-- ======================功能按钮======================= -->
+<view class="FunctionsList">
+  <image src="/static/Firstimage/dehaze.jpg" class="Fimagelist"bindtap="jump1"></image>
+  <image src="/static/Firstimage/Enhance.jpg" class="Fimagelist"bindtap="jump2"></image>
+  <image src="/static/Firstimage/storage.jpg" class="Fimagelist"bindtap="jump3"></image>
+</view>
+

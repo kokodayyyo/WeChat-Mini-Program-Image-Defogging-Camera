@@ -1,0 +1,21 @@
+<view class="weui-article__section">
+                  <view class="weui-article__h5">前端页面设置HSL颜色模型功能</view>
+                  <view class="weui-article__ol">
+                    <view class="weui-article__li">模块划分
+                      <view class="weui-article__ul">
+                        <view class="weui-article__li">水平图片设定--16:9/4:3</view>
+                        <view class="weui-article__li">竖直图片设定--16:9/4:3</view>
+                      </view>
+                    </view>
+                    <view class="weui-article__li">
+                      HSL颜色模型功能介绍
+                      <view class="weui-article__ul">
+                        <view class="weui-article__li">HSL颜色模型函数提供了饱和度，亮度和色相的一体化设置和更新</view>
+                        <view class="weui-article__li">受限于微信小程序前端canvas画布性能，部分像素可能有坏点，输出图片尺寸也受限于微信小程序前端页面，并非原图尺寸。</view>
+                        <view class="weui-article__li">图像框下方提供了直接的16:9/4:3的切换按钮。</view>
+                        <view class="weui-article__li">饱和度提供了从-100到150的调整幅度，亮度提供了从-100到100的调整幅度，色相提供了0到360的标准色轮和参考色相。</view>
+                        <view class="weui-article__li">色相调整模块由于函数限制，无法获得图片本身的原始色相，固初始设定为0，此功能请参考图例谨慎使用。</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>

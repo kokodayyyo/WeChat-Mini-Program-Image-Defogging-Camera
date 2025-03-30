@@ -1,0 +1,38 @@
+<!-- 预览框canvas组件 -->
+<text class="textset">选择图片并设置滤镜</text>
+<view class="scroll_box"> 
+    <scroll-view scroll-x>
+      <canvas canvas-id='hehe' style='margin:0 auto;width:480px; height:640px; border:3px solid rgb(82, 133, 118);'>
+      </canvas>
+    </scroll-view>
+  </view>
+  <view class="SwitchB"style="width:100%;display:flex;flex-direction: row;mar">
+    <text class="little1">👆4：3 ->点击切换16：9</text>  <button class="little2" bindtap="jump1">切换</button>
+  </view>
+
+  <view class='wrap'>
+    <button class="weui-btn weui-btn_default" style="width: 90%;" bindtap="LoadingImage0">已经预选的图片</button>
+    <view class="Button">
+      <button style="width: 80rpx;height: 80rpx;"bindtap="LoadingImage1">1</button>
+      <button style="width: 80rpx;height: 80rpx;"bindtap="LoadingImage2">2</button>
+      <button style="width: 80rpx;height: 80rpx;"bindtap="LoadingImage3">3</button>
+      <button style="width: 80rpx;height: 80rpx;"bindtap="LoadingImage4">4</button>
+      <button style="width: 80rpx;height: 80rpx;"bindtap="LoadingImage5">5</button>
+      <button style="width: 80rpx;height: 80rpx;"bindtap="LoadingImage6">6</button>
+      <button style="width: 80rpx;height: 80rpx;"bindtap="LoadingImage7">7</button>
+      <button style="width: 80rpx;height: 80rpx;"bindtap="LoadingImage8">8</button>
+      <button style="width: 80rpx;height: 80rpx;"bindtap="LoadingImage9">9</button>
+    </view>
+    <button class="weui-btn weui-btn_default weui-btn_loading" bindtap='choose'style="margin-top:40rpx;width:90%"><text class="weui-mask-loading"></text>从相册选择图片</button>
+    <view wx:if="{{selected}}" class='picker-wrap'>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+            <view class="picker">
+                当前选择：{{array[index]}}
+            </view>
+        </picker>
+    </view>
+    <view class='time' wx:if="{{gap}}">Processing time:{{gap}}ms</view>
+    <button wx:if="{{selected}}" bindtap='save' class='save'>save</button>
+    <button style="background-color:transparent;height:150rpx;">-------------------</button> 
+</view>
+

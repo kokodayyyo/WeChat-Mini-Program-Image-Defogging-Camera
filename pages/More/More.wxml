@@ -1,0 +1,25 @@
+<!-- 轮播图 -->
+<view class="showimage">
+  <swiper class="swiper-wrap" autoplay="{{true}}" circular="{{true}}"indicator-dots="{{true}}"interval="5000">
+	<swiper-item>
+		<image class ="Show"mode="widthFix" src="https://img-blog.csdnimg.cn/996c48d09504406a97cfde8d2c716030.jpeg" />
+	</swiper-item>
+	<swiper-item>
+		<image class ="Show" mode="widthFix" src="https://img-blog.csdnimg.cn/4f1cb0508fa04061982b310b9b4ecb50.jpeg" />
+	</swiper-item>
+	<swiper-item>
+		<image class ="Show" mode="widthFix" src="https://img-blog.csdnimg.cn/0057077e157d4b3980c197088203626a.jpeg" />
+	</swiper-item>
+  <swiper-item>
+		<image class ="Show" mode="widthFix" src="https://img-blog.csdnimg.cn/7abda569719541c9822e8522ea470b8b.jpeg" />
+	</swiper-item>
+</swiper>
+</view>
+<button bindtap="takephoto" class="foot">选择照片</button>
+<view class="auction">
+  <image src="/static/More/filter.jpg" bindtap="jump1"style="border-radius: 30rpx;height: 300rpx;"/>
+  <image src="/static/More/personalset.jpg"bindtap="jump2" style="border-radius: 30rpx;height: 300rpx;margin-left:10rpx;"/>
+</view>
+<view class="chooseImage">
+  <image mode="aspectFit" src="{{pic}}"></image>
+</view>

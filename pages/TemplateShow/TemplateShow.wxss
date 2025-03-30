@@ -1,0 +1,21 @@
+.GetImage{
+  display: flex;
+  justify-content: center;
+  border-radius: 30rpx;
+  margin-top: 25rpx;
+  border: 6rpx solid rgb(63, 90, 71);
+  flex-direction: column;/* 主轴方向为竖直*/
+}
+.DealButton{
+  margin-top: 20rpx;
+  border-radius: 30rpx;
+  background: linear-gradient(to right, #e8bbf1, #97fff6); 
+  width: 350rpx;
+  height: 95rpx;
+}
+.hide{
+  display: none;
+ }
+ .show{ 
+  display: block;
+ }
